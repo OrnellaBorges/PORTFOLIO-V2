@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--dark-green);
+  width: 100%;
+  color: var(--light);
+  padding: 20px;
+  font-family: var(--lato);
+  position: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header:hover {
+  background-color: var(--orange);
+}

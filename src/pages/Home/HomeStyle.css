@@ -1,0 +1,44 @@
+.main-welcome {
+  display: flex;
+  border: 3px solid red;
+  height: 100vh;
+}
+
+.main-welcome .section-welcome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  color: var(--black);
+  background-color: var(--light);
+}
+
+.main-welcome .title-level1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.main-welcome .welcome-button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-welcome .button.button-welcome {
+  background-color: var(--pink);
+}
+
+.main-welcome .section-image {
+  border: 3px solid yellow;
+  width: 40%;
+  /* padding: 45px 45px; */
+  background-color: var(--aqua-green);
+}
+
+.main-welcome .image {
+  margin: 0 auto;
+  border: 3px solid salmon;
+  width: 85%;
+}
