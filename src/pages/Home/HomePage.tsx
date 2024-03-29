@@ -1,4 +1,5 @@
 import SvgIcon from "../../components/SVG/SvgIcon";
+import { SvgData2 } from "../../api/svgData2";
 import "./HomeStyle.css";
 
 export function HomePage() {
@@ -8,7 +9,9 @@ export function HomePage() {
       <h1 className="title-level1">Ornella Borges</h1>
       <small className="jobName">Fullstack Developer</small>
 
-      <SvgIcon name="nodejs" />
+      {SvgData2.map((icon) => (
+        <SvgIcon key={icon.id} name={icon.name} />
+      ))}
 
       {/* <StackSvgLogoTest /> */}
     </section>
