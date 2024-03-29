@@ -13,9 +13,9 @@ export default function App() {
     setShowModal(!showModal);
   };
 
-  const toggleModal = () => {
+  /*const toggleModal = () => {
     setOpenModal(!openModal);
-  };
+  }; */
 
   return (
     <>
@@ -23,7 +23,6 @@ export default function App() {
         <Main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-
             {/* <Route path="/test" element={<TestPage />} /> */}
           </Routes>
         </Main>
