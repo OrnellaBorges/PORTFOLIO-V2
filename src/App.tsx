@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./Layout";
-import { HomePage } from "./pages/Home/HomePage";
-
+import { HomePage } from "./Pages/Home/HomePage";
 import { useState } from "react";
+import Main from "./components/Wrappers/Main";
 import "./App.css";
 
 export default function App() {
@@ -20,11 +20,13 @@ export default function App() {
   return (
     <>
       <Layout handleModalOpen={toggleModalTest}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
+        <Main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
 
-          {/* <Route path="/test" element={<TestPage />} /> */}
-        </Routes>
+            {/* <Route path="/test" element={<TestPage />} /> */}
+          </Routes>
+        </Main>
       </Layout>
     </>
   );

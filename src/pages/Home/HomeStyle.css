@@ -1,17 +1,11 @@
-.main-welcome {
-  display: flex;
-  border: 3px solid red;
-  height: 100vh;
-}
-
-.main-welcome .section-welcome {
+.main .section-welcome {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 2rem;
+  gap: 1rem;
   color: var(--black);
   background-color: var(--light);
 }
@@ -37,8 +31,9 @@
   background-color: var(--aqua-green);
 }
 
-.main-welcome .image {
+/* .main-welcome .image {
   margin: 0 auto;
   border: 3px solid salmon;
   width: 85%;
 }
+ */
