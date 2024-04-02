@@ -13,16 +13,20 @@ export const SvgData2 = [
     id: 3,
     name: "React",
   },
-  {
+  /* {
     id: 4,
+    name: "Next",
+  }, */
+  {
+    id: 5,
     name: "Redux",
   },
   {
-    id: 5,
+    id: 6,
     name: "nodejs",
   },
   {
-    id: 6,
+    id: 7,
     name: "mysql",
   },
 ];

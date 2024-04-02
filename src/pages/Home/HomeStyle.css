@@ -1,4 +1,4 @@
-.main .section-welcome {
+.section-welcome {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,17 +10,17 @@
   background-color: var(--light);
 }
 
-.main-welcome .title-level1 {
+.title-level1 {
   text-transform: uppercase;
   font-size: 2.5rem;
 }
 
-.main-welcome .welcome-button-container {
+.welcome-button-container {
   display: flex;
   gap: 1rem;
 }
 
-.main-welcome .button.button-welcome {
+.button.button-welcome {
   background-color: var(--pink);
 }
 
@@ -29,4 +29,15 @@
   width: 40%;
   /* padding: 45px 45px; */
   background-color: var(--aqua-green);
+}
+
+.svgList {
+  border: 3px solid red;
+  display: flex;
+}
+
+.svgItem {
+  border: 3px solid blue;
+  border-radius: 20px;
+  overflow: hidden;
 }
