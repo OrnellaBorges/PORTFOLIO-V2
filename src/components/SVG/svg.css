@@ -1,0 +1,10 @@
+.svg-logo {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.svg-logo:hover {
+  cursor: pointer;
+  position: relative;
+}

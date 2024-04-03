@@ -1,8 +1,11 @@
+import "./svg.css";
+
 type SvgPropsType = {
   name: string;
 };
 
 export default function SvgIcon({ name }: SvgPropsType) {
+  const svgClassName = `svg-logo svg-${name.toLowerCase()}`;
   // creation d'une fonction qui renvoit le bon svg en fonction de la props reçu
   // elle reçois en paramettre un nom
   // en fonction de ce nom elle retourne le bon code svg
@@ -16,6 +19,7 @@ export default function SvgIcon({ name }: SvgPropsType) {
             width="100"
             height="100"
             viewBox="0 0 1052 1052"
+            className={svgClassName}
           >
             <path fill="#f0db4f" d="M0 0h1052v1052H0z" />
             <path
