@@ -10,6 +10,10 @@
   background-color: var(--light);
 }
 
+.hello {
+  border: 3px solid green;
+}
+
 .title-level1 {
   text-transform: uppercase;
   font-size: 2.5rem;

@@ -9,7 +9,7 @@ type HeaderProps = {
 export function Header({ handleModalOpen }: HeaderProps) {
   return (
     <header className="header">
-      <div className="headerDiv">
+      <div className="logoContainer">
         <LinkButton linkUrlBtn="/">LOGO</LinkButton>
       </div>
     </header>

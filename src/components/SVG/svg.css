@@ -2,9 +2,43 @@
   width: 100%;
   height: 100%;
   aspect-ratio: 1/1;
+  background-color: orange;
 }
 
 .svg-logo:hover {
   cursor: pointer;
-  position: relative;
+}
+
+.jsLetter {
+  fill: black;
+}
+
+.tsLetter {
+  fill: black;
+}
+
+.sql,
+.redux,
+.node {
+  fill: black;
+}
+
+.redux:hover {
+  fill: #764abc;
+}
+
+.node:hover {
+  fill: #539e43;
+}
+
+.svg-react:hover {
+  fill: #61dafb;
+}
+
+.svg-javascript:hover {
+  background-color: #f0db4f;
+}
+
+.svg-typescript:hover {
+  background-color: #017acb;
 }
